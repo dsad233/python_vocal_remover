@@ -6,8 +6,8 @@ print("1. drums \n"
 "3. other \n" 
 "4. vocals")
 print("------------")
-type = int(input("분리할 타입을 선택 해주세요: "))
-file_name = input("분리할 파일명을 입력해주세요: ")
+type = int(input("분리할 타입을 선택해 주세요: "))
+file_name = input("분리할 파일명을 입력해 주세요: ")
 
 if int(type) == 1:
    type = "drums"
